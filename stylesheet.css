@@ -23,7 +23,7 @@ header {
     border-top: none;
     border-right: none;
     border-left: none;
-
+    z-index: 1000; /* dit zorgt er voor zodat de topbar nooit onder iets gaat:)*/
    
 }
 
