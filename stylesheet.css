@@ -169,6 +169,15 @@ section h2 {
     box-shadow: black 21px 20px 10px;
 }
 
+.mijnverhaal:hover{
+    box-shadow: #7BDFF2 21px 20px 10px;
+}
+
+.watikleukvind:hover{
+    box-shadow: #7BDFF2 21px 20px 10px;
+}
+
+
 #about button {
     display: block;
     margin-left: 29%;
@@ -198,8 +207,29 @@ section h2 {
     height: 400px;
     width: auto;
     margin-bottom: 3%;
+     backdrop-filter: blur(10px);
     
 }
+
+.ouders:hover{
+    border: #7BDFF2 2px solid;
+    box-shadow: -10px -10px 6px#7BDFF2 ;
+}
+
+.broer:hover{
+    border: #7BDFF2 2px solid;
+}
+
+.zus:hover{
+    border: #7BDFF2 2px solid;
+}
+
+.huisdieren:hover{
+    border: #7BDFF2 2px solid;
+    box-shadow: #7BDFF2 10px 10px 6px;
+}
+
+
 
 .ouders, .broer, .zus, .huisdieren{
         background-color: #202c3cac;
@@ -233,6 +263,8 @@ section h2 {
 .huisdieren{
 
 }
+
+
 
 
 
