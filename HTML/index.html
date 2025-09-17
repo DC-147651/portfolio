@@ -9,15 +9,16 @@
 <body>
 
 <header>
-    <h1>Mijn Portfolio</h1>
-    <nav>
+ <h1>Mijn Portfolio</h1>
+    <nav>   
         <a href="#home">Home</a>
         <a href="#about">Over mij!</a>
-        <a href="#familie">familie</a>
+        <a href="#familie">Familie</a>
         <a href="#hobby's">Hobby's</a>
-        <a href="#opleiding">opleiding</a>
-        <a href="#contact">Contact</a>
-        
+        <a href="#opleiding">Opleiding</a>
+        <a href="#eten">Eten</a>
+        <a href="#verleden">Verleden</a>
+        <a href="#contact">Contact</a>   
     </nav>
 </header>
 
@@ -28,11 +29,12 @@
      <button onclick="window.location.href='#about'">Meer over mij ⬇</button>   
 </section>
 
+
 <section id="about">
     <h2>Over mij</h2>
     <p>Hier leer je me beter kennen!</p>
 
-    <img src="../image/pfp.jpg" alt="guy sitting on a rock looking at the sunset" class="big-pic">
+    <!-- <img src="../image/pfp.jpg" alt="guy sitting on a rock looking at the sunset" class="big-pic"> -->
 
     <div class="mijnverhaal">
         <h3>Mijn verhaal</h3>
@@ -52,26 +54,30 @@
     <h2>Familie</h2>
     <p>Hier vind je informatie over mijn familie!</p>
 
-    <div class="ouders">
-        <h3>Ouders</h3>
-    </div>
+<div class="fam-cards">
+        <div class="ouders">
+            <img src="../image/ouders.jpg" alt="foto van familie">
+            <h3 style="margin: 3%;">Ouders</h3>
+            <h4 style="color:  #7BDFF2; margin: 0%;">Mijn ouders</h4>
+            <p>Ik woon in Assen met mijn: <br>Pa, stiefma, stiefbroer</p>
+        </div>
 
-    <div class="broer">
-        <h3>Broer</h3>
-    </div>
+        <div class="broer">
+            <h3>Broer</h3>
+        </div>
 
-    <div class="zus">
-        <h3>Zussen</h3>
-    </div>
+        <div class="zus">
+            <h3>Zussen</h3>
+        </div>
 
-    <div class="huisdieren?">
-        <h3>Huisdieren?</h3>
-    </div>
-
+        <div class="huisdieren">
+            <h3>Huisdieren?</h3>
+        </div>
+</div>
     <button onclick="window.location.href='#familie1'">Klik voor meer over mijn familie ⮕</button>
 </section>
 
-<section id="hobby's">
+<section id="hobbys">
     <h2>Hobby's</h2>
     <p>Hier vind je informatie over mijn hobby's!</p>
 
@@ -103,6 +109,32 @@
     </div>
 
     <button onclick="window.location.href='#opleiding1'">Klik voor meer over mijn opleiding ⮕</button>
+</section>
+
+
+<section id="Eten">
+    <h2>Eten</h2>
+    <p>Hier vind je informatie over mijn opleiding</p>
+
+    <div class="Kapsalon">
+        <h3>KAPSALON</h3>
+    </div>
+
+    <div class="wittebonen">
+        <h3>Wie houdt er nou niet van wittebonen en tomatensaus</h3>
+    </div>
+
+    <div class="kipwrap">
+        <h3>kipwraps</h3>
+    </div>
+
+    <button onclick="window.location.href='Eten'">Klik voor meer over mijn eten te weten komen</button>
+
+</section>
+
+<section id="Verleden">
+    <h2>Verleden</h2>
+    <p>Hier kom je meer te weten overmijn Verleden</p>
 </section>
 
 <footer>
