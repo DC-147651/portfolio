@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    font-family: monospace, sans-serif;
+    font-family: Arial, Helvetica, Verdana;
 
 }
 
@@ -137,8 +137,8 @@ section h2 {
 
 .profile-pic:hover {
     transform: scale(1.1);
-    transition: height 1.5s;
-    transition: width 1.5s;
+    transition: height 2.5s;
+    transition: width 2.5s;
     box-shadow: #7BDFF2 0px 0px 15px;
     height: 190px;
     width: 300px;
@@ -195,8 +195,8 @@ section h2 {
 #familie{
     height: auto;
     /* border: #010101 2px solid; */
-    padding-bottom: 1%;
-    padding-top: 1rem;
+    padding-bottom: 7%;
+    padding-top: 3rem;
 }
 
 #familie h2, p{
@@ -374,6 +374,7 @@ section h2 {
     text-align: center;
     margin-top: 2rem;
     padding-top: 3rem;
+    padding-bottom: 17%;
 }
 
 .food-cards{
@@ -463,9 +464,51 @@ section h2 {
 
 
 footer {
-    background-color: #1E293B;
-    
+    border: #000000 8px solid;
+    background-color: #1E293B; 
+    height: auto;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+
+footer div{
+    height: 220px;
+    width: 41.875rem;
+    background-color: #182335;
+    flex-wrap: wrap;
+    border: #334155 2px solid;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+footer aside{
+    height: 24px;
+    width: 24px;
+    border: #010101 1px solid;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.email aside{
+    background: linear-gradient( to bottom right, #1C8BFE, #00AFE3);
+}
+
+.teams aside{
+    background: linear-gradient( to bottom right, #4F2C91, #6264A7);
+}
+
+.teams {
+    margin-bottom: 5rem;
+}
+
+.locatie aside{
+    background: rgb(85, 85, 85);
+}
+
+
 
 footer h2 {
    font-size: 36px;
@@ -478,4 +521,49 @@ footer p {
     font-size: 20px;
     margin-bottom: 6%;
     text-align: center;
+}
+
+
+/* hier zie je dat alle p in een div in de footer worden aangepast */
+footer div p {
+    text-align: start;
+    font-size: 15px;
+}
+
+
+.email:hover{
+    transform: scale(1.05);
+    background: #043f8438;
+    border: #023b4d 1px solid;
+    transition-duration: 300ms;
+    transition-delay: 20ms;
+
+}
+
+.teams:hover{
+    transform: scale(1.05);
+    background-color: #4f2c9137;
+    border: #023b4d 1px solid;
+    transition-duration: 300ms;
+    transition-delay: 20ms;
+
+}
+
+footer .volgme h3{
+    margin-bottom: 40px;
+}
+
+footer .volgme a{
+    border: #101828 5px solid;
+    background-color: #101828;
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-right: 400px;
+    text-decoration: none;
+}
+
+.volgme a{
+    transform: scale(1.3);
 }
