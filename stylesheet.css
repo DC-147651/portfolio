@@ -108,7 +108,7 @@ section h2 {
 
 #about {
     background-color: #202c3cac;
-    padding: 2%;
+    padding-bottom: 2rem;
 }
 #about h2 {
     font-size: 36px;
@@ -378,8 +378,7 @@ section h2 {
 }
 
 .food-cards{
-    height: 4
-    0rem;
+    height: 40rem;
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: center; /* dit is voor de horizontale ding */
@@ -436,14 +435,14 @@ section h2 {
 #verleden{
     text-align: center;
     margin-top: 5%;
-    border:#010101 1px solid;
+    /* border:#010101 1px solid; */
     display: block;
     padding-top: 3rem;
     margin-bottom: 9rem;
 }
 
 .verleden-cards{
-    border: #000000 1px solid;
+    /* border: #000000 1px solid; */
     display: flex;                  /* activeer flexbox */
     flex-direction: column;         /* onder elkaar zetten */
     align-items: center;            /* horizontaal centreren */
@@ -464,7 +463,7 @@ section h2 {
 
 
 footer {
-    border: #000000 8px solid;
+    /* border: #000000 8px solid; */
     background-color: #1E293B; 
     height: auto;
     gap: 1em;
@@ -479,15 +478,15 @@ footer div{
     width: 41.875rem;
     background-color: #182335;
     flex-wrap: wrap;
-    border: #334155 2px solid;
+    border: #334155 1px solid;
     border-radius: 10px;
     padding: 1%;
+    box-shadow: #090d11ac 10px 5px 10px;
 }
 
 footer aside{
     height: 24px;
     width: 24px;
-    border: #010101 1px solid;
     padding: 12px;
     border-radius: 15px;
 }
