@@ -131,17 +131,17 @@ section h2 {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #7BDFF2;
+    border: 2px solid #7BDFF2;
     margin-bottom: 30px;
 }
 
 .profile-pic:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
     transition: height 2.5s;
     transition: width 2.5s;
     box-shadow: #7BDFF2 0px 0px 15px;
-    height: 190px;
-    width: 300px;
+    height: 195px;
+    width: 320px;
     border-radius: 0;
 }
 
@@ -227,6 +227,11 @@ section h2 {
     box-shadow: #7BDFF2 20px 10px 7px;
 }
 
+.huisdieren img:hover{
+    transform: scale(7.0);
+    transition-delay: 5s;
+}
+
 
 
 .ouders, .broer, .zus, .huisdieren{
@@ -242,6 +247,7 @@ section h2 {
 .ouders img, .broer img, .zus img, .huisdieren img{
     height: 40%;
     border-radius: 10%;
+    width: 9rem;
 }
 
 .ouders h4{
@@ -317,8 +323,8 @@ section h2 {
 }
 
 .gamen img, .lopen img, .muziek img{
-    height: 10rem;
-    width: 12rem;
+    height: 9rem;
+    width: 10rem;
     border-radius: 10%;
     margin-top: 1.5rem;
 }
@@ -362,11 +368,16 @@ section h2 {
 .huidigeopleiding h3, .middelbareschool h3, .bassischool h3{
     text-align: left;
     margin-left: 20px;
+    color: #00c3ff;
 }
 
 .huidigeopleiding h4, .middelbareschool h4, .bassischool h4{
     text-align: left;
     margin-left: 20px;
+}
+
+div time{
+    color: grey;
 }
 
 #eten{
