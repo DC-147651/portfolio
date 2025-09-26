@@ -109,6 +109,9 @@ section h2 {
 #about {
     background-color: #202c3cac;
     padding-bottom: 2rem;
+    display: flex;                  /* activeer flexbox */
+    flex-direction: column;         /* onder elkaar zetten */
+    align-items: center;   
 }
 #about h2 {
     font-size: 36px;
@@ -293,7 +296,7 @@ section h2 {
     height: 400px;
     width: 800px;
     backdrop-filter: blur(10px);
-    border: #010101 2px solid;
+    /* border: #010101 2px solid; */
 }
 
 .gamen, .lopen, .muziek{
