@@ -195,7 +195,7 @@ section h2 {
 #familie{
     height: auto;
     /* border: #010101 2px solid; */
-    padding-bottom: 7%;
+    padding-bottom: 20%;
     padding-top: 3rem;
 }
 
@@ -247,7 +247,7 @@ section h2 {
 .ouders img, .broer img, .zus img, .huisdieren img{
     height: 40%;
     border-radius: 10%;
-    width: 9rem;
+    width: 75%;
 }
 
 .ouders h4{
@@ -265,12 +265,12 @@ section h2 {
 
 #hobbys {
     background-color: #202c3cac;
-    display: flexbox;
     /* border: #010101 2px solid; */
-    align-items: start;
-    padding-bottom: 2%;
     text-align: center;
-    padding-bottom: 12rem;
+    padding-bottom: 13rem;
+    display: flex;                  /* activeer flexbox */
+    flex-direction: column;         /* onder elkaar zetten */
+    align-items: center;   
 }
 
 #hobbys h2 {
@@ -289,13 +289,11 @@ section h2 {
 .hob-cards {
     display: flex;
     justify-content: center;
-    gap: 1%;
+    gap: 3%;
     height: 400px;
-    margin-bottom: 3%;
+    width: 800px;
     backdrop-filter: blur(10px);
-    flex-wrap: wrap;
-    align-items: center;
-    /* border: #010101 2px solid; */
+    border: #010101 2px solid;
 }
 
 .gamen, .lopen, .muziek{
@@ -385,7 +383,7 @@ div time{
     text-align: center;
     margin-top: 2rem;
     padding-top: 3rem;
-    padding-bottom: 17%;
+    padding-bottom: 15%;
 }
 
 .food-cards{
@@ -443,16 +441,25 @@ div time{
 
 
 
-#verleden{
+#projecten{
     text-align: center;
     margin-top: 5%;
     /* border:#010101 1px solid; */
     display: block;
     padding-top: 3rem;
-    margin-bottom: 9rem;
+    margin-bottom: 12rem;
 }
 
-.verleden-cards{
+#projecten h3, p{
+ margin: 1%;
+}
+
+#projecten img{
+    height: 50px;
+    width: 50px;
+}
+
+.projecten-cards{
     /* border: #000000 1px solid; */
     display: flex;                  /* activeer flexbox */
     flex-direction: column;         /* onder elkaar zetten */
@@ -460,13 +467,39 @@ div time{
     
 }
 
-.jeugdontdekking, .groei, .doelen{
+.text{
+    margin: 2%;
+}
+
+
+.schoolportfolio, .soon{
     border: #334155 2px solid;
     height: 8rem;
     width: 49%;
     margin-bottom: 2%;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: #090d11ac 1px 10px 10px;
+
+    display: flex;
+            /* zet items naast elkaar */
+    align-items: center;          /* verticaal centreren */
+    padding: 1rem;
+    gap: auto;
+}
+
+.tag {
+    margin-right: 2%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.school{
+    background: red;
+}
+
+.home{
+    background-color: #005be3;
+    border: #116cf5 1px solid;
 }
 
 
@@ -475,7 +508,7 @@ div time{
 
 footer {
     /* border: #000000 8px solid; */
-    background-color: #1E293B; 
+    background-color: #131D30; 
     height: auto;
     gap: 1em;
     display: flex;
