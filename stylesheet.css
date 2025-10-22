@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+*
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
 
 body {
     background: linear-gradient(to bottom right, #1E293B, #334155);
@@ -10,15 +14,23 @@ body {
 }
 
 header {
+<<<<<<< HEAD
     display: flex;
     align-items: center; /* zorgt dat tekst verticaal gecentreerd is */
     justify-content: space-between; /* titel links, nav rechts */
     flex-wrap: wrap; /* laat elementen naar een nieuwe regel springen als er geen ruimte is */
+=======
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
     background-color: #202c3cac;
     backdrop-filter: blur(10px);
     color: white;
     text-align: left;
+<<<<<<< HEAD
     height: auto;
+=======
+    overflow: hidden; /* Zorgt ervoor dat de inhoud binnen de header blijft  het werkt alleen niet heel goed hahah*/
+    height: 70px;
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
     position: sticky;
     top: 0;
     border: #334155 1px solid;
@@ -26,6 +38,7 @@ header {
     border-top: none;
     border-right: none;
     border-left: none;
+<<<<<<< HEAD
     z-index: 1000;
     padding: 10px 20px;
 }
@@ -43,6 +56,28 @@ nav {
     flex-wrap: wrap; /* laat menuitems naar volgende regel gaan */
 }
 
+=======
+    z-index: 1000; /* dit zorgt er voor zodat de topbar nooit onder iets gaat:)*/
+   
+}
+
+header h1 {
+    float: left;
+    margin: 10px;
+    font-size: 24px;
+    position: relative;
+    top: 9px;
+    z-index: 1000;
+}
+
+nav {
+    float: right;
+    text-align: center;
+    top: 20px;
+    position: relative;
+
+}
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
 
 nav a {
     color: white;
@@ -67,6 +102,10 @@ button {
     padding: 5px 15px;
     border-radius: 7px;
     font-size: 15px;
+<<<<<<< HEAD
+=======
+    cursor: poiter;
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
     box-shadow: black 2px 10px 7px;
     font-family: monospace;
 }
@@ -89,10 +128,14 @@ section h2 {
 }
 
 #home {
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+=======
+    text-align: center;
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
     padding: 10rem;
     height: 35rem;
 }
@@ -113,6 +156,7 @@ section h2 {
     padding-bottom: 2rem;
     display: flex;                  /* activeer flexbox */
     flex-direction: column;         /* onder elkaar zetten */
+<<<<<<< HEAD
     align-items: center;
     padding-bottom: 11rem;
 
@@ -120,6 +164,10 @@ section h2 {
 }
 
 
+=======
+    align-items: center;   
+}
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
 #about h2 {
     font-size: 36px;
     margin-bottom: 20px;
@@ -174,6 +222,7 @@ section h2 {
    border: #334155 1px solid;
    border-radius: 15px;
    text-align: center;
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -185,6 +234,13 @@ section h2 {
     max-width: 40rem;
     max-height: 10rem;
 
+=======
+    padding: 20px;
+    width: 550px;
+    height: 220px;
+    margin-bottom: 50px;
+    box-shadow: #090d11ac 21px 20px 10px;
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
 }
 
 .mijnverhaal:hover{
@@ -209,6 +265,7 @@ section h2 {
 } */
 
 #familie{
+<<<<<<< HEAD
     /* border: #010101 2px solid; */
     padding-bottom: 12%;
     padding-top: 3rem;
@@ -217,6 +274,12 @@ section h2 {
     align-items: center;
 
 
+=======
+    height: auto;
+    /* border: #010101 2px solid; */
+    padding-bottom: 20%;
+    padding-top: 3rem;
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
 }
 
 #familie h2, p{
@@ -224,6 +287,7 @@ section h2 {
 }   
 
 .fam-cards{
+<<<<<<< HEAD
     display: flex;
     flex-direction: row;
     gap: 3rem;
@@ -232,6 +296,17 @@ section h2 {
     justify-content: space-around; /* wat hier gebeurt is dat het dat er evenveel ruimte tussen alles zit dit merk je vooral in een kleine window */
 
 
+=======
+    /* border: #010101 2px solid; */
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    height: 400px;
+    width: auto;
+    margin-bottom: 3%;
+    backdrop-filter: blur(10px);
+    
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
 }
 
 .ouders:hover, .broer:hover, .zus:hover, .huisdieren:hover{
@@ -256,19 +331,30 @@ section h2 {
 .ouders, .broer, .zus, .huisdieren{
         background-color: #202c3cac;
         border-radius: 5%;
+<<<<<<< HEAD
 
         border: #334155 1px solid;
         text-align: center;
         box-shadow: #090d11ac 20px 10px 7px;
         height: 20rem;
         width: 12rem;
+=======
+        padding: 2%;
+        margin: 0%;
+        border: #334155 1px solid;
+        text-align: center;
+        box-shadow: #090d11ac 20px 10px 7px;
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
 }
 
 .ouders img, .broer img, .zus img, .huisdieren img{
     height: 40%;
     border-radius: 10%;
     width: 75%;
+<<<<<<< HEAD
     padding: 5%;
+=======
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
 }
 
 .ouders h4{
@@ -287,12 +373,22 @@ section h2 {
 #hobbys {
     background-color: #202c3cac;
     /* border: #010101 2px solid; */
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
+=======
+    text-align: center;
+    padding-bottom: 13rem;
+    display: flex;                  /* activeer flexbox */
+    flex-direction: column;         /* onder elkaar zetten */
+    align-items: center;   
+}
+
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
 #hobbys h2 {
     font-size: 36px;
     margin-bottom: 20px;
@@ -309,6 +405,7 @@ section h2 {
 .hob-cards {
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     flex-wrap: wrap;
     backdrop-filter: blur(10px);
     /* border: #010101 2px solid; */
@@ -330,6 +427,25 @@ section h2 {
 }
 
 
+=======
+    gap: 3%;
+    height: 400px;
+    width: 800px;
+    backdrop-filter: blur(10px);
+    /* border: #010101 2px solid; */
+}
+
+.gamen, .lopen, .muziek{
+    border: #334155 1px solid;
+    border-radius: 3%;
+    background-color: #202c3cac;
+    text-align: center;
+    width: 21.688rem;
+    height: 22.75rem;
+    box-shadow: #090d11ac 1px 10px 10px;
+}
+
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
 .gamen:hover, .lopen:hover, .muziek:hover{
    transform: scale(1.01);
 }
@@ -503,9 +619,18 @@ div time{
     margin-bottom: 2%;
     border-radius: 15px;
     box-shadow: #090d11ac 1px 10px 10px;
+<<<<<<< HEAD
     display: flex;
     align-items: center;          /* verticaal centreren */
     padding: 1rem;
+=======
+
+    display: flex;
+            /* zet items naast elkaar */
+    align-items: center;          /* verticaal centreren */
+    padding: 1rem;
+    gap: auto;
+>>>>>>> 139d7f9e20b41816a7a5fc3502316db338bcd016
 }
 
 .tag {
